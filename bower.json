@@ -1,0 +1,32 @@
+{
+  "name": "stock-research",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Sandeep Thottapilly <sandeep_b_t@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sandeepbt/StockResearch",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.18.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",    
+    "datatables.net": "^1.10.15",
+    "datatables.net-bs": "^2.1.1",    
+    "bootstrap-slider": "*",
+    "bootstrap": "^3.3.7",
+    "bootstrap-colorpicker": "^2.5.1",    
+    "bootstrap-datepicker": "^1.7.0",
+    "bootstrap-daterangepicker": "^2.1.25",    
+    "bootstrap-timepicker": "^0.5.2",
+    "Ionicons": "ionicons#^2.0.1",
+    "jquery-ui": "1.11.4"
+  }
+}

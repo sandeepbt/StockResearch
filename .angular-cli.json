@@ -19,9 +19,20 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "sra",
       "styles": [
-        "styles.css"
+        "../bower_components/bootstrap/dist/css/bootstrap.min.css", 
+        "../bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css",
+        "../bower_components/font-awesome/css/font-awesome.min.css",
+        "../bower_components/Ionicons/css/ionicons.min.css",        
+        "./assets/css/skins/_all-skins.min.css",
+        "./assets/css/stock-research.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../bower_components/moment/min/moment.min.js",
+        "../bower_components/jquery/dist/jquery.min.js",
+        "../bower_components/jquery-ui/jquery-ui.min.js",         
+        "../bower_components/bootstrap/dist/js/bootstrap.min.js",    
+        "./assets/js/stock-research.js"        
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
